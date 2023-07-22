@@ -1,0 +1,2 @@
+*+html{overflow:auto;}
+.pagination li, a.btn, #search, ul.sf-menu>li:first-child>a, header nav, ul.sf-menu>li.last a, ul.sf-menu>li.last, .btns a {behavior:url(js/PIE.htc); position:relative;}

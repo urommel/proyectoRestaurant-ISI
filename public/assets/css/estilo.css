@@ -1,0 +1,12 @@
+#buscaCliente {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 15px;
+    padding: 0px 0px 0px 25px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 120px;
+    color: black;
+}

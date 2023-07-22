@@ -1,0 +1,39 @@
+.rowx {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: top;
+  }
+
+  /* Create four equal columns that sits next to each other */
+
+  .columnx {
+    margin: auto;
+    flex: 15%;
+    max-width: 15%;
+    padding: top;
+  }
+
+  .columnx img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 100px) {
+    .columnx {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 100px) {
+    .columnx {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+

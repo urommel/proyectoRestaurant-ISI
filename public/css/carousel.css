@@ -1,0 +1,134 @@
+.carousel1 li {
+	float: left;
+	padding-top: 3px;
+	margin: 0 16px;
+	color: #539d8b;
+}
+
+
+.carousel-div {
+	margin: 0 -16px;
+	padding-top: 4px;
+	padding-bottom: 29px;
+	overflow: hidden !important;	
+	position: relative;
+	margin-bottom: 23px;
+}
+
+.carousel1 {
+	cursor: default; !important;	
+}
+
+.carousel1 .small {
+	color: #9c9c9c;
+}
+
+a.prev {
+	background: url(../images/prevnext.png) 0 0 no-repeat;
+	display: block;
+	float: right;
+	width: 33px;
+	height: 35px;
+	transition: 0s ease; 	
+	-o-transition: 0s ease; 
+	-webkit-transition: 0s ease; 
+	margin-top: -3px;
+}
+
+.prev:hover {
+	background-position: 0 bottom;	
+}
+
+a.next {
+	background: url(../images/prevnext.png) right bottom no-repeat;
+	display: block;
+	float: right;
+	width:33px;
+	margin-top: -3px;
+	height: 35px; 
+	transition: 0s ease; 	
+	-o-transition: 0s ease; 
+	-webkit-transition: 0s ease;
+	margin-left: 2px;	
+}
+
+.next:hover {
+	background-position: right 0;	
+}
+
+
+.carousel1>li>a:hover span{
+  border-color: #d8cfbe;
+  transition: border-color 1s ease;
+}
+
+.carousel1>li img {
+	margin-bottom: 13px;
+}
+
+.carousel1>li h2 {
+	line-height: 30px;
+	color: #424242;
+	margin-bottom: 12px;
+}
+
+.carousel1>li>a span {
+	border: 16px solid transparent; 
+	position: absolute;
+	width: 118px; 
+	height: 78px;	
+	left: 0px;
+	top: 0;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+
+.carousel1>li>.link1 a {
+	color: #e7920d;
+	font: 14px/20px 'Open Sans Condensed', sans-serif;	
+}
+
+.carousel1>li>.link a {
+	font-size: 16px;	
+	line-height: 16px; 
+}
+
+.carousel1>li>.link {
+	line-height: 16px;
+	padding: 0;
+}
+
+.carousel1>li>div a:hover , .jcarousel-skin-tango .jcarousel-item-horizontal>div a:hover time{
+	color: #978e7c;	
+}
+
+.carousel1>li.link1 {
+	line-height: 20px;	
+	padding-bottom: 4px;
+	padding-top: 15px;
+}
+
+.carousel1>li>div a time {
+	text-transform: uppercase;
+	color: #584d38;	
+	display: inline-block;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 767px) {
+ 	.carousel1 li {
+		margin-left: 0;
+	}	
+	
+	.carousel-div {
+		margin: 0 !important;	
+	}
+}
+
+ @media only screen and (max-width: 479px) { 
+ 	.carousel1 li {
+		margin-left: 0;	
+	} }
